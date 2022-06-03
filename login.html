@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+	<div class="conteudo">
+		<form>
+		<div class="form">
+		<h2>Login</h2>
+		<div>
+		<label for="usuario">Usuario:</label>
+		<input type="text" id="email" placeholder="Digite seu e-mail">
+	</div>
+	<div>
+	<label for="passaword">Senha:</label>
+	<input type="passaword" id="senha" placeholder="Digite sua senha">
+</div>
+<button type="button" class="botao" onclick="validar()">
+	Enviar
+</button>
+</div>
+</form>
+</div>
+<script>
+	function validar(){
+		var email=document.getElementById("email");
+		var senha=document.getElementById("senha");
+
+		if(email.value==""){
+		alert("E-mail não informado");
+		email.focus();
+		return;
+	}
+	if(senha.value==""){
+		alert("Senha não informada");
+		senha.focus()
+		return
+	}
+	alert("SEJA BEM VINDO NOVAMENTE!!!");
+	}
+
+</script>
+
+</body>
+</html>
