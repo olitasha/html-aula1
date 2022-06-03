@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.navbar img{
+	margin-right: 800px;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(13.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+.navbar{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	padding: 20px 30px;
+}
+.navbar ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 33%;
+}
+ul a{
+	margin-right: 100px;
+}
+
+a:hover{
+	color: rgb(137, 163, 220);
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-family: samsung;
+}
+ul{
+	list-style: none;
+}
+.container{
+	
+	background-color: #f4f4f4;
+	opacity: 1.0;
+	border: 2px;
+	margin-top: 0 auto;
+	margin: auto;
+	width: 983px;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	font-family: samsung;
+	font-size: 25px;
+
+}
+
+.container h1{
+	font-family: samsung;
+
+}
+.container img{
+	padding-bottom: 10px;
+}
+.img17{
+
+}
+
+@font-face{
+
+	font-family: 'samsung';
+	src: url('samsungsharpsans-medium.otf') format('opentype');
+}
