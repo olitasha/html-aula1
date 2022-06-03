@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    height: 100vh;
+        grid-template-columns: 1.1fr 1.1fr 1.1fr 1.1fr;
+        grid-template-rows: 0.5fr 2fr 1.2fr 0.3fr;
+        grid-template-areas: "nav nav nav nav"
+                             "main main main main"
+                             "conteudo1 conteudo2 conteudo3 conteudo4"
+                             "footer footer footer footer";
+    grid-gap: 0.5em;
+    
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    grid-area: nav;
+    border-radius: 0.8em;
+}
+#nav img{
+    margin-left: 60px;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+#nav a{
+    text-decoration: none;
+    font-size 22px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+    color: black;
+    text-align: center;   
+}
+#menu a:hover{
+    background-color: lightskyblue;
+    color: white;
+}
+#main{
+    background-color: lightcoral;
+    grid-area: main;
+    border-radius: 0.8em;    
+}
+
+
+#conteudo1{
+    background-color: lightgreen;
+    grid-area: conteudo1;
+    border-radius: 0.8em;
+}
+#conteudo2{
+    background-color: lightgreen;
+    grid-area: conteudo2;
+    border-radius: 0.8em;
+}
+#conteudo3{
+    background-color: lightgreen;
+    grid-area: conteudo3;
+    border-radius: 0.8em;
+}
+#conteudo4{
+    background-color: lightgreen;
+    grid-area: conteudo4;
+    border-radius: 0.8em;
+}
+#footer{
+    background-color: lightsteelblue;
+    grid-area: footer;
+    border-radius: 0.8em;
+}
