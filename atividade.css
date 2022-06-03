@@ -1,0 +1,11 @@
+h1{
+align-items: center;
+text-align: center;
+width: 100vw;
+height: 5;
+height: 10vh;
+background-color: red;
+color: blue;
+border: 5px solid black;
+margin: auto;
+}
